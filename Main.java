@@ -12,5 +12,17 @@ public class Main{
 
         String name = "Yash";
         System.out.println(name);
+
+        int myNum = 15;
+        System.out.println(myNum);
+
+        float myFloatNum = 5.99f;
+        char myLetter = 'D';
+        boolean myBool = true;
+        String myText = "Hello";
+        System.out.println(myFloatNum);
+        System.out.println(myLetter);
+        System.out.println(myBool);
+        System.out.println(myText);
     }
 }
