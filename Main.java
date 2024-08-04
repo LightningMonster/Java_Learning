@@ -9,5 +9,8 @@ public class Main{
         System.out.println(50);
         System.out.println(500);
         System.out.println(5+5);
+
+        String name = "Yash";
+        System.out.println(name);
     }
 }
