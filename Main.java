@@ -24,5 +24,26 @@ public class Main{
         System.out.println(myLetter);
         System.out.println(myBool);
         System.out.println(myText);
+
+        System.out.println("Hello " + name);
+
+        String firstName = "Yash ";
+        String lastName = "Dhadve";
+        String fullName = firstName + lastName;
+        System.out.println(fullName);
+
+        //Real Life Example
+        // Student data
+        String studentName = "Yash Dhadve";
+        int studentID = 15;
+        int studentAge = 23;
+        float studentFee = 75.25f;
+        char studentGrade = 'B';
+        // Print variables
+        System.out.println("Student name: " + studentName);
+        System.out.println("Student id: " + studentID);
+        System.out.println("Student age: " + studentAge);
+        System.out.println("Student fee: " + studentFee);
+        System.out.println("Student grade: " + studentGrade);
     }
 }
