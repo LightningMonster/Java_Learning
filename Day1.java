@@ -1,7 +1,7 @@
 //Day 1
 //First program
 
-public class Main{
+public class Day1{
     public static void main(String[] args){
         System.out.println("Hello World!");
 
