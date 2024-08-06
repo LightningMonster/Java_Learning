@@ -1,5 +1,7 @@
-public class AssignmentOperatorsDemo {
+//Day3
+public class Day3 {
     public static void main(String[] args) {
+        //Assignment Operators
         // 1. Simple assignment
         int a = 10;
         System.out.println("Initial value of a: " + a);
@@ -47,5 +49,46 @@ public class AssignmentOperatorsDemo {
         // 12. Unsigned right shift and assign
         a >>>= 1; 
         System.out.println("After a >>>= 1: " + a);
+
+
+        //Comparison Operators
+        int x = 10;
+        int y = 20;
+
+        //Equal to
+        boolean result = (x == y);
+        System.out.println("x == y: "+ result);
+
+        //Not equal to
+        result = (x != y);
+        System.out.println("x != y: "+ result);
+
+        //Greater than
+        result = (x > y);
+        System.out.println("x > y: "+ result);
+
+        //Less than
+        result = (x < y);
+        System.out.println("x < y: "+ result);
+
+        //Greater than or equal to
+        result = (x >= y);
+        System.out.println("x >= y: "+ result);
+
+        //Less than or equal to
+        result = (x <= y);
+        System.out.println("x <= y: "+ result);
+
+        x = 30;
+        y = 30;
+
+        System.out.println("\nNew values: x = 30, y = 30");
+
+        System.out.println("x == y: " + (x == y));
+        System.out.println("x != y: " + (x != y));
+        System.out.println("x > y: " + (x > y));
+        System.out.println("x < y: " + (x < y));
+        System.out.println("x >= y: " + (x >= y));
+        System.out.println("x <= y: " + (x <= y));
     }
 }
