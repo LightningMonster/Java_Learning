@@ -15,6 +15,7 @@ public class if_else {
                     break;
 
             case 2: P_S(num);
+                    short_hand(num);
                     break;
         }
         s.close();
@@ -36,7 +37,12 @@ public class if_else {
             System.out.println("Number "+num+" is Negative!");
         else if(num>0)
             System.out.println("Number "+num+" is Positive!");
+    } 
+
+    public static void short_hand(int num)
+    {
+        String sh = (num < 0) ? "Negative" : "Positive";
+        System.out.println("Number "+num+" is "+sh);
     }
-    
 }
 
