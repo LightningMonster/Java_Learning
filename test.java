@@ -1,24 +1,20 @@
+
 public class test {
-    public static void main(String[] args) {
-        B b = new B();
-        b.add();
-        b.subtract();
+    public static void main(String[] args)
+    {
+        test t = new test();
+
+        t.TypeCastingManually();
     }
 
-    static class A {
-        void add() {
-            int a = 2, b = 1;
-            System.out.println("Addition: " + (a + b));
-            
-            String c = (a > b)? "a is greaterthan b" : "a is lessthan b"; 
-            System.out.println(c);
-        }
-    }
+    public void TypeCastingManually()
+    {
+        int num = 10;
+        System.out.println("Variable num is integer type "+num);
 
-    static class B extends A {
-        void subtract() {
-            int a = 2, b = 1;
-            System.out.println("Subtraction: " + (a - b));
-        }
+        double num1 = (double) num;
+        System.out.println("Variable num is double type "+num1);
     }
 }
+
+
