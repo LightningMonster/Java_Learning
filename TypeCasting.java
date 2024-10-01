@@ -1,8 +1,8 @@
 
-public class test {
+public class TypeCasting {
     public static void main(String[] args)
     {
-        test t = new test();
+        TypeCasting t = new TypeCasting();
 
         t.TypeCastingManually();
     }
@@ -15,6 +15,6 @@ public class test {
         double num1 = (double) num;
         System.out.println("Variable num is double type "+num1);
     }
+
+    
 }
-
-
