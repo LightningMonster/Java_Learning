@@ -1,7 +1,7 @@
 abstract class Polygon{
     //abstract method
     abstract void getArea();
-
+    int a =1;
     //regular method
     void printSides(int side){
         System.out.println("Number of sides: "+side);
@@ -9,6 +9,7 @@ abstract class Polygon{
 }
 
 class Rectangle extends Polygon{
+
 
     //implement abstract method
     void getArea()
