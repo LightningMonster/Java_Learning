@@ -62,3 +62,11 @@ public class slip_4_1 {
     }
 }
 
+/*
+ * Enter the number of rows: 2
+Enter the number of columns: 3
+Enter the elements of the matrix:
+1 2 3
+4 5 6
+
+ */
