@@ -1,3 +1,6 @@
+/*
+ *  Write a program to accept ‘n’ name of cities from the user and sort them in ascending order.
+ */
 package Sem_5_slips;
 
 import java.util.Arrays;
@@ -36,3 +39,15 @@ public class slip_3_1 {
     }
 }
 
+/*
+ * Enter the number of cities: 3
+Enter the name of city 1: New York
+Enter the name of city 2: Los Angeles
+Enter the name of city 3: Chicago
+
+Cities in ascending order:
+Chicago
+Los Angeles
+New York
+
+ */
