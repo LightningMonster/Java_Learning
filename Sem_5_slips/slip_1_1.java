@@ -4,7 +4,6 @@ Write a Program to print all Prime numbers in an array of ‘n’ elements.
  */
 package Sem_5_slips;
 
-
 public class slip_1_1 {
 
     public static void main(String[] args) {
