@@ -107,3 +107,40 @@ public class slip_5_2 {
         sc.close();
     }
 }
+
+/*
+ * Enter number of rows for the matrices: 2
+Enter number of columns for the matrices: 2
+Enter elements of first matrix:
+1 2
+3 4
+Enter elements of second matrix:
+5 6
+7 8
+
+Menu:
+1. Addition of Matrices
+2. Multiplication of Matrices
+3. Exit
+Enter your choice: 1
+Matrix Addition Result:
+6 8 
+10 12 
+
+Menu:
+1. Addition of Matrices
+2. Multiplication of Matrices
+3. Exit
+Enter your choice: 2
+Matrix Multiplication Result:
+19 22 
+43 50 
+
+Menu:
+1. Addition of Matrices
+2. Multiplication of Matrices
+3. Exit
+Enter your choice: 3
+Exiting...
+
+ */
