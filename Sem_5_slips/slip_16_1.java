@@ -1,9 +1,6 @@
 /*
- * Write a program to find the Square of given number using function interface. 
-
+Write a program to find the Square of given number using function interface. 
  */
-
-
 import java.util.Scanner;
 
 // Define a functional interface

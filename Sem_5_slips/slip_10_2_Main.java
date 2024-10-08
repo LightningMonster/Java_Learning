@@ -1,7 +1,13 @@
+/*
+ * Write a program to create a package name student. Define class StudentInfo with method to
+display information about student such as rollno, class, and percentage. Create another class
+StudentPer with method to find percentage of the student. Accept student details like
+ rollno, name, class and marks of 6 subject from user.
+ */
 package Sem_5_slips;
 
-//import Sem_5_slips.slip_10_2_StudentInfo;
-//import Sem_5_slips.slip_10_2_StudentPer;
+import Sem_5_slips.slip_10_2_StudentInfo;
+import Sem_5_slips.slip_10_2_StudentPer;
 import java.util.Scanner;
 
 public class slip_10_2_Main {
