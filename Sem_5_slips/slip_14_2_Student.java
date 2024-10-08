@@ -1,7 +1,8 @@
+// File: Main/slip_14_2_Student.java
 package Sem_5_slips;
 
-//import Sem_5_slips.slip_14_2_SYMarks;
-//import Sem_5_slips.slip_14_2_TYMarks;
+import Sem_5_slips.slip_14_2_SYMarks;
+import Sem_5_slips.slip_14_2_TYMarks;
 import java.util.Scanner;
 
 public class slip_14_2_Student {
@@ -10,7 +11,7 @@ public class slip_14_2_Student {
     private slip_14_2_SYMarks syMarks;
     private slip_14_2_TYMarks tyMarks;
 
-    // Constructor using the correct class names
+    // Constructor
     public slip_14_2_Student(int rollNumber, String name, slip_14_2_SYMarks syMarks, slip_14_2_TYMarks tyMarks) {
         this.rollNumber = rollNumber;
         this.name = name;
@@ -18,30 +19,33 @@ public class slip_14_2_Student {
         this.tyMarks = tyMarks;
     }
 
+    // Method to calculate the grade based on computer subject marks from SY and TY
     public String calculateGrade() {
-        int totalMarks = syMarks.getComputerTotal() + tyMarks.getTheory(); // Adjust if necessary
-        if (totalMarks >= 70) {
+        int totalComputerMarks = syMarks.getTotal() + tyMarks.getTotal();
+        if (totalComputerMarks >= 70) {
             return "A";
-        } else if (totalMarks >= 60) {
+        } else if (totalComputerMarks >= 60) {
             return "B";
-        } else if (totalMarks >= 50) {
+        } else if (totalComputerMarks >= 50) {
             return "C";
-        } else if (totalMarks >= 40) {
+        } else if (totalComputerMarks >= 40) {
             return "Pass Class";
         } else {
             return "FAIL";
         }
     }
 
+    // Method to display the result of the student
     public void displayResult() {
         System.out.println("Roll Number: " + rollNumber);
         System.out.println("Name: " + name);
-        System.out.println("Computer Marks (SY): " + syMarks.getComputerTotal());
-        System.out.println("Theory Marks (TY): " + tyMarks.getTheory());
+        System.out.println("SY Computer Marks: " + syMarks.getComputerTotal());
+        System.out.println("TY Theory Marks: " + tyMarks.getTheory());
         System.out.println("Grade: " + calculateGrade());
         System.out.println("-------------------------");
     }
 
+    // Main method
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter number of students: ");
@@ -73,7 +77,7 @@ public class slip_14_2_Student {
             slip_14_2_SYMarks syMarks = new slip_14_2_SYMarks(syComputerMarks, syMathsMarks, syElectronicsMarks);
             slip_14_2_TYMarks tyMarks = new slip_14_2_TYMarks(tyTheoryMarks, tyPracticalMarks);
 
-            students[i] = new slip_14_2_Student(rollNumber, name, syMarks, tyMarks); // Corrected instantiation
+            students[i] = new slip_14_2_Student(rollNumber, name, syMarks, tyMarks);
         }
 
         System.out.println("\nStudent Results:");

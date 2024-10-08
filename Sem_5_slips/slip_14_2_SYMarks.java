@@ -1,29 +1,33 @@
+// File: SY/SYMarks.java
 package Sem_5_slips;
 
 public class slip_14_2_SYMarks {
-    private int computerMarks;
-    private int mathsMarks;
-    private int electronicsMarks;
+    private int computerTotal;
+    private int mathsTotal;
+    private int electronicsTotal;
 
-    public slip_14_2_SYMarks(int computerMarks, int mathsMarks, int electronicsMarks) {
-        this.computerMarks = computerMarks;
-        this.mathsMarks = mathsMarks;
-        this.electronicsMarks = electronicsMarks;
+    // Constructor
+    public slip_14_2_SYMarks(int computerTotal, int mathsTotal, int electronicsTotal) {
+        this.computerTotal = computerTotal;
+        this.mathsTotal = mathsTotal;
+        this.electronicsTotal = electronicsTotal;
     }
 
+    // Getter methods
     public int getComputerTotal() {
-        return computerMarks;
+        return computerTotal;
     }
 
-    public int getMathsMarks() {
-        return mathsMarks;
+    public int getMathsTotal() {
+        return mathsTotal;
     }
 
-    public int getElectronicsMarks() {
-        return electronicsMarks;
+    public int getElectronicsTotal() {
+        return electronicsTotal;
     }
 
+    // Method to get the total marks of SY subjects
     public int getTotal() {
-        return computerMarks + mathsMarks + electronicsMarks; // Total of all SY marks
+        return computerTotal + mathsTotal + electronicsTotal;
     }
 }
