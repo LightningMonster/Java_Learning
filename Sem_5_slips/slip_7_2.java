@@ -2,7 +2,6 @@
  * Write a program to accept a text file from user and display the contents of a file in 
  reverse order and change its case.
 */
-package Sem_5_slips;
 
 import java.io.File;
 import java.io.FileNotFoundException;

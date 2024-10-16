@@ -1,5 +1,5 @@
 // File: SY/SYMarks.java
-package Sem_5_slips;
+package pack_14;
 
 public class slip_14_2_SYMarks {
     private int computerTotal;

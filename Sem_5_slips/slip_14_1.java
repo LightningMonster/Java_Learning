@@ -2,7 +2,6 @@
  * Write a program to accept a number from the user, if number is zero then throw user defined 
  exception “Number is 0” otherwise check whether no is prime or not (Use static keyword).
  */
-package Sem_5_slips;
 
 import java.util.Scanner;
 

@@ -3,7 +3,6 @@
 3.142 Create a class cylinder which implements this interface (members – radius,height). Create 
 one object and calculate the volume.
  */
-package Sem_5_slips;
 
 // Define the Operation interface
 interface Operation {

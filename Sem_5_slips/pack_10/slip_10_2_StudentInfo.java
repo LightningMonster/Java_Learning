@@ -1,4 +1,5 @@
-package Sem_5_slips;//Call the dir where your program is located
+package pack_10;
+//Call the dir where your program is located
 
 public class slip_10_2_StudentInfo {
     private int rollNo;

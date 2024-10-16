@@ -2,7 +2,6 @@
  * Write a program to create parent class College(cno, cname, caddr) and derived class 
 Department(dno, dname) from College. Write a necessary methods to display College details.
  */
-package Sem_5_slips;
 
 // Parent class College
 class College {

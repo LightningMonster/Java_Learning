@@ -2,7 +2,6 @@
  * Write a program to find the cube of given number using functional interface.
 
  */
-package Sem_5_slips;
 
 import java.util.Scanner;
 import java.util.function.Function;

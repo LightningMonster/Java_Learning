@@ -2,9 +2,8 @@
  * Write a program to display the Employee(Empid, Empname, Empdesignation, Empsal)
 information using toString().
  */
-package Sem_5_slips;
 
-class Employee {
+class slip_6_1 {
     // Employee attributes
     private int empId;
     private String empName;
@@ -12,7 +11,7 @@ class Employee {
     private double empSalary;
 
     // Parameterized constructor to initialize Employee object
-    public Employee(int empId, String empName, String empDesignation, double empSalary) {
+    public slip_6_1(int empId, String empName, String empDesignation, double empSalary) {
         this.empId = empId;
         this.empName = empName;
         this.empDesignation = empDesignation;
@@ -32,7 +31,7 @@ class Employee {
     // Main method to test the Employee class
     public static void main(String[] args) {
         // Creating an Employee object
-        Employee emp = new Employee(101, "John Doe", "Software Developer", 75000.50);
+        slip_6_1 emp = new slip_6_1(101, "John Doe", "Software Developer", 75000.50);
 
         // Displaying Employee details using toString()
         System.out.println(emp);

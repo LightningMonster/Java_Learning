@@ -6,10 +6,6 @@
 
  */
 
- package Sem_5_slips;
-
- import  Sem_5_slips.slip_20_2_Addition;
- import  Sem_5_slips.slip_20_2_Maximum;
  
  public class slip_20_2_Main {
      public static void main(String[] args) {

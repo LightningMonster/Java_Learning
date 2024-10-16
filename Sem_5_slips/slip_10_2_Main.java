@@ -4,11 +4,12 @@ display information about student such as rollno, class, and percentage. Create 
 StudentPer with method to find percentage of the student. Accept student details like
  rollno, name, class and marks of 6 subject from user.
  */
-package Sem_5_slips;
 
-import Sem_5_slips.slip_10_2_StudentInfo;
-import Sem_5_slips.slip_10_2_StudentPer;
+
 import java.util.Scanner;
+
+import pack_10.slip_10_2_StudentInfo;
+import pack_10.slip_10_2_StudentPer;
 
 public class slip_10_2_Main {
     public static void main(String[] args) {

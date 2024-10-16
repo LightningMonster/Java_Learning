@@ -2,7 +2,6 @@
  *  Write a program to accept the username and password from user if username and password are
 not same then raise "Invalid Password" with appropriate msg.
  */
-package Sem_5_slips;
 
 import java.util.Scanner;
 

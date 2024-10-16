@@ -4,7 +4,6 @@
  b. Withdraw a certain amount from an account
  c. Return a Balance value specifying the amount with details
  */
-package Sem_5_slips;
 
 import java.util.Scanner;
 

@@ -3,8 +3,6 @@
  (Hint : Surface area=4*3.14(r*r), Volume=(4/3)3.14(r*r*r))
  */
 
-package Sem_5_slips;
-
 import java.util.Scanner;
 
 // Sphere class definition

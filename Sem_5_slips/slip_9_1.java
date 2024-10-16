@@ -5,19 +5,18 @@
  c. Set the time to AM/PM mode
  Use the necessary constructors and methods to do the above task 
  */
-package Sem_5_slips;
 
 import java.util.Scanner;
 
 // Clock class definition
-class Clock {
+class slip_9_1 {
     private int hours;
     private int minutes;
     private int seconds;
     private String period; // AM/PM mode
 
     // Constructor to initialize the clock with hours, minutes, and seconds
-    public Clock(int hours, int minutes, int seconds) {
+    public slip_9_1(int hours, int minutes, int seconds) {
         this.hours = hours;
         this.minutes = minutes;
         this.seconds = seconds;
@@ -58,7 +57,7 @@ class Clock {
     }
 
     // Method to set the time manually
-    public static Clock setTime() {
+    public static slip_9_1 setTime() {
         Scanner scanner = new Scanner(System.in);
 
         // Accept hours, minutes, and seconds from the user
@@ -72,7 +71,7 @@ class Clock {
         int seconds = scanner.nextInt();
 
         // Create a Clock object
-        Clock clock = new Clock(hours, minutes, seconds);
+        slip_9_1 clock = new slip_9_1(hours, minutes, seconds);
 
         // Check the validity of the time
         if (!clock.isValidTime()) {
@@ -86,7 +85,7 @@ class Clock {
     // Main method to run the program
     public static void main(String[] args) {
         // Set and validate time
-        Clock clock = Clock.setTime();
+        slip_9_1 clock = slip_9_1.setTime();
 
         if (clock != null) {
             // Set to AM/PM mode

@@ -6,7 +6,6 @@ Current date is : Tuesday August 31 2021
 Current date and time is : Fri August 31 15:25:59 IST 2021
 Current date and time is : 31/08/21 15:25:59 PM +0530
  */
-package Sem_5_slips;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

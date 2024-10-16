@@ -2,7 +2,6 @@
  * Write a java program that works as a simple calculator. Use a grid layout to arrange buttons for
 the digits and for the +, -, *, % operations. Add a text field to display the result
  */
-package Sem_5_slips;
 
 import java.awt.*;
 import java.awt.event.*;

@@ -5,7 +5,6 @@
  Order and Sales Order and accept and display details.
 
  */
-package Sem_5_slips;
 
 import java.util.Scanner;
 

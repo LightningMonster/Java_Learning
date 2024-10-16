@@ -1,10 +1,9 @@
 /*
- *  Write a menu driven program to perform the following operations on multidimensional array
- ie matrices :
+Write a menu driven program to perform the following operations on multidimensional array is matrices :
  Addition
  Multiplication
- Exit
- */
+ Exit 
+*/
 
 import java.util.Scanner;
 

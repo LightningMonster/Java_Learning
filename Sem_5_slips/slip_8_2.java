@@ -3,7 +3,6 @@
  and MOUSE_CLICKED and display the position of the Mouse_Click in a TextField.
 
  */
-package Sem_5_slips;
 
 import java.awt.*;
 import java.awt.event.*;

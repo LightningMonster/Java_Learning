@@ -2,7 +2,6 @@
  * Write a program to accept a file name from command prompt, if the file exits then display 
  number of words and lines in that file.
  */
-package Sem_5_slips;
 
 import java.io.BufferedReader;
 import java.io.File;

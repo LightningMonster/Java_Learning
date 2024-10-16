@@ -4,7 +4,6 @@
  product and display the contents of each object and Also display the object count.
 
  */
-package Sem_5_slips;
 
 // Marker interface
 interface ProductMarker {

@@ -6,11 +6,11 @@
  and calculate the Grade (‘A’ for >= 70, ‘B’ for >= 60 ‘C’ for >= 50, Pass Class for > =40 
  else‘FAIL’) and display the result of the student in proper format.
  */
-package Sem_5_slips;
+import pack_14.slip_14_2_SYMarks;
+import pack_14.slip_14_2_TYMarks;
 
-import Sem_5_slips.slip_14_2_SYMarks;
-import Sem_5_slips.slip_14_2_TYMarks;
 import java.util.Scanner;
+
 
 public class slip_14_2_Student {
     private int rollNumber;
