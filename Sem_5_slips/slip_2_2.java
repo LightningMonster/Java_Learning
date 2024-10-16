@@ -4,7 +4,6 @@ Create an array of n player objects .Calculate the batting average for each play
 method avg(). Define a static sort method which sorts the array on the basis of average. Display
 the player details in sorted order.
  */
-package Sem_5_slips;
 
 import java.util.Arrays;
 import java.util.Comparator;

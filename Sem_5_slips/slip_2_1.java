@@ -5,13 +5,12 @@ Q1) Write a program to read the First Name and Last Name of a person, his weight
  (Hint : BMI = Wts. In kgs / (ht)2)
 
  */
-package Sem_5_slips;
 public class slip_2_1 {
 
     public static void main(String[] args) {
         // Check if enough arguments are provided
         if (args.length != 4) {
-            System.out.println("Usage: java BMICalculator <FirstName> <LastName> <WeightInKgs> <HeightInMeters>");
+            System.out.println("Usage: java slip_2_1 <FirstName> <LastName> <WeightInKgs> <HeightInMeters>");
             return;
         }
 

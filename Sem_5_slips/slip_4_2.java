@@ -3,7 +3,6 @@
     the user name and password are not same, raise an Exception with appropriate message.
     User can have 3 login chances only. Use clear button to clear the TextFields
 */
-package Sem_5_slips;
 
 import java.awt.*;
 import java.awt.event.*;
