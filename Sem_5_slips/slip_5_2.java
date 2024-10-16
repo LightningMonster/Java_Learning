@@ -5,7 +5,6 @@
  Multiplication
  Exit
  */
-package Sem_5_slips;
 
 import java.util.Scanner;
 

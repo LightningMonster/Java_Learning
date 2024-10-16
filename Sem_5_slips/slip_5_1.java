@@ -3,7 +3,6 @@
  State is inherited from Country. Display the place, State, Country and Continent.
  */
 
-package Sem_5_slips;
 
 // Base class
 class Continent {
