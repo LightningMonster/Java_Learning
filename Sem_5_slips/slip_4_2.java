@@ -1,8 +1,8 @@
 /*
- *  Write a program to design a screen using Awt that will take a user name and password. If 
-the user name and password are not same, raise an Exception with appropriate message.
-User can have 3 login chances only. Use clear button to clear the TextFields
- */
+    Write a program to design a screen using Awt that will take a user name and password. If 
+    the user name and password are not same, raise an Exception with appropriate message.
+    User can have 3 login chances only. Use clear button to clear the TextFields
+*/
 package Sem_5_slips;
 
 import java.awt.*;

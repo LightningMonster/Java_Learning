@@ -6,39 +6,6 @@ Q1) Write a program to read the First Name and Last Name of a person, his weight
 
  */
 package Sem_5_slips;
-
-// Abstract class Staff
-abstract class Staff {
-    protected int id;
-    protected String name;
-
-    // Parameterized constructor
-    public Staff(int id, String name) {
-        this.id = id;
-        this.name = name;
-    }
-
-    // Abstract method to display details
-    public abstract void displayDetails();
-}
-
-// Subclass OfficeStaff with department member
-class OfficeStaff extends Staff {
-    private String department;
-
-    // Constructor for OfficeStaff
-    public OfficeStaff(int id, String name, String department) {
-        super(id, name);
-        this.department = department;
-    }
-
-    // Override method to display details
-    @Override
-    public void displayDetails() {
-        System.out.println("ID: " + id + ", Name: " + name + ", Department: " + department);
-    }
-}
-
 public class slip_2_1 {
 
     public static void main(String[] args) {
