@@ -2,7 +2,6 @@
  *  Write a program which shows the combo box which includes list of T.Y.B.Sc.(Comp. Sci) 
  subjects. Display the selected subject in a text field.
  */
-package Sem_5_slips;
 
 import javax.swing.*;
 import java.awt.*;

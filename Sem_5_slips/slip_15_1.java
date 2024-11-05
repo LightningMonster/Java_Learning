@@ -2,7 +2,6 @@
  * Accept the names of two files and copy the contents of the first to the second. First file having
 Book name and Author name in file. 
  */
-package Sem_5_slips;
 import java.io.*;
 import java.util.Scanner;
 

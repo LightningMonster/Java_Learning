@@ -2,7 +2,6 @@
 Write a program to accept the two dimensional array from user and display sum of its diagonal 
  elements.
 */
-package Sem_5_slips;
 
 import java.util.Scanner;
 

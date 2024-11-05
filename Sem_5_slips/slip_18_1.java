@@ -1,7 +1,6 @@
 /*
  *  Write a program to implement Border Layout Manager.
  */
-package Sem_5_slips;
 
 import javax.swing.*;
 import java.awt.*;

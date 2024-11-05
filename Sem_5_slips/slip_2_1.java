@@ -24,7 +24,7 @@ public class slip_2_1 {
         double bmi = weight / (height * height);
 
         // Display the result
-        System.out.println("Name: " + firstName + " " + lastName);
+        System.out.println("Name: " + firstName +  "" + lastName);
         System.out.println("Weight: " + weight + " kg");
         System.out.println("Height: " + height + " meters");
         System.out.printf("BMI: %.2f\n", bmi);

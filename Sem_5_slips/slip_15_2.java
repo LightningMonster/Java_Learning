@@ -4,8 +4,7 @@
  minbal. Create a derived class AccountDetail that extends the class SavingAccount with 
  members, depositamt and withdrawalamt. Write a appropriate method to display customer 
  details.
- */
-package Sem_5_slips;
+*/
 
 // Base class Account
 class Account {

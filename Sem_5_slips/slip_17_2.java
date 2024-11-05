@@ -4,7 +4,6 @@
  two strings should be displayed in third text box and on clicking second command button,
  reverse of string should display in third text box
  */
-package Sem_5_slips;
 
 import javax.swing.*;
 import java.awt.*;

@@ -3,7 +3,6 @@ Design a Super class Customer (name, phone-number). Derive a class Depositor(acc
  from Customer. Again, derive a class Borrower (loan-no, loan-amt) from Depositor. Write 
  necessary member functions to read and display the details of ‘n’customers.
 */
-package Sem_5_slips;
 import java.util.Scanner;
 
 // Superclass Customer

@@ -1,7 +1,6 @@
 /*
  * Write a program to design a screen using Awt that
  */
-package Sem_5_slips;
 import java.awt.*;
 import java.awt.event.*;
 

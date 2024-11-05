@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "LoginApp",
+      "request": "launch",
+      "mainClass": "LoginApp",
+      "projectName": "JAVA Learning_1cc7b894"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
